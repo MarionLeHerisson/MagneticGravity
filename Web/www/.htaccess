@@ -1,0 +1,20 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+RewriteRule	^accueil$       index.php   [L]
+RewriteRule	^contact$       index.php   [L]
+RewriteRule	^cgu$           index.php   [L]
+RewriteRule	^editeur$	    index.php   [L]
+RewriteRule	^niveaux$	    index.php   [L]
+RewriteRule	^display$	    index.php   [L]
+RewriteRule	^erreur$        index.php   [L]
+
+RewriteRule	^getlevel$      index.php   [L]
+RewriteRule	^levelslist$    index.php   [L]
+RewriteRule	^savelevel$     index.php   [L]
+
+RewriteRule	^savetest$      index.php   [L]
+
+#RewriteRule	^.*$                    index.php [L]
+#RewriteRule	^(?:(?!^www\/).)*$      index.php [L] # files not beginning with www/
+#RewriteRule	    ^(?:(?!^magneticgravity\/).)*$ www/index.php   [L]

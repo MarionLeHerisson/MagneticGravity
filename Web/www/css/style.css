@@ -1,0 +1,126 @@
+html, div, table, td, tr, thead, tbody, p {
+    margin: 0;
+    padding: 0;
+}
+
+/*-----------------------*/
+/*      C O M M O N      */
+/*-----------------------*/
+.container {
+    width: 100%;
+}
+
+.none {
+    display: none;
+}
+
+.txt-white {
+    color: #fff;
+}
+
+#grid {
+    background-image: url(../Medias/Assets/WallTest.png);
+    background-size: 800px 807px;
+    display: inline-block;
+}
+
+.dropSquare {
+    width: 100px;
+    height: 50px;
+    box-shadow: 0 0 0 0.3px #3c3c3c;
+}
+
+
+
+/*-----------------------*/
+/*         N A V         */
+/*-----------------------*/
+.navbar {
+    margin-bottom: 0;
+}
+.mg-nav {
+    position: inherit;
+}
+.navbar-nav {
+    float: right;
+}
+
+@media (min-width: 768px) {
+    .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+        margin-left: 40px;
+    }
+}
+
+/*-----------------------*/
+/*      I N D E X        */
+/*-----------------------*/
+.cover-index {
+    padding: 100px;
+    background-size: cover;
+    background-position-y: -90px;
+    background-image: url("../Medias/UI_Background.png");
+    height: 400px;
+    text-align: center;
+}
+
+.cover-heading {
+    width: 1200px;
+    height: 105px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url(../Medias/DIF_Logo.png);
+    background-size: cover;
+}
+
+.featurette-image {
+    padding-top: 10px;
+}
+
+/*-----------------------*/
+/*    C O N T A C T      */
+/*-----------------------*/
+.marketing img, .marketing h2, .marketing p {
+    vertical-align: middle;
+    text-align: center;
+}
+
+/*-----------------------*/
+/* L E V E L S   L I S T */
+/*-----------------------*/
+
+.flright {
+    float: right;
+    top: -58px;
+    position: relative;
+}
+
+/* Scroll to top/bottom */
+.scroll {
+    display: block;
+    position: fixed;
+    visibility: visible;
+    opacity: .5;
+    z-index: 110;
+    right: 2em;
+    width: 1.7em;
+    height: 1.7em;
+    background: rgba(100,100,100,.9);
+    text-align: center;
+    border-radius: .2143em;
+    cursor: pointer;
+
+    -webkit-transition: border-radius .2s ease, color .2s ease;
+    transition: border-radius .2s ease, color .2s ease;
+}
+.backToTop {
+    bottom: 5em;
+}
+.backToBottom {
+    top: 5em;
+}
+
+.scroll:hover{
+    border-radius: 2em;
+    color: white;
+}

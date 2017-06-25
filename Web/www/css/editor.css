@@ -1,0 +1,47 @@
+/*-----------------------*/
+/*      E D I T O R      */
+/*-----------------------*/
+
+/*#grid_viewport {*/
+    /*overflow: hidden;*/
+    /*border: solid 1px #ccc;*/
+/*}*/
+
+li.block-list {
+    height: 100px;
+}
+
+.block-name {
+    display: inline-block;
+}
+
+.block-info {
+    margin-top: 13px;
+    margin-left: 10px;
+    float: left;
+}
+
+.dropBlocks {
+    padding-left: 50px;
+}
+
+.asset {
+    display: block;
+    position: absolute;
+}
+
+.option {
+    display: block;
+    position: relative;
+    left: 43%;
+    top: 20%;
+    font-size: x-large;
+    color: #fff;
+}
+
+#clic {
+    display: block;
+    position: absolute;
+    padding-left: 23px;
+    padding-top: 9px;
+}
